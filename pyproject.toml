@@ -1,0 +1,17 @@
+[project]
+name = "sql-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docker>=7.1.0",
+    "faker>=33.1.0",
+    "jupyter>=1.1.1",
+    "kubernetes>=31.0.0",
+    "llm-sandbox>=0.1.8",
+    "openai>=1.58.1",
+    "pandas>=2.2.3",
+    "pyarrow>=18.1.0",
+    "torch>=2.5.1",
+]
